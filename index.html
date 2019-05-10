@@ -141,13 +141,13 @@
         
         <div class="level article-meta is-size-7 is-uppercase is-mobile is-overflow-x-auto">
             <div class="level-left">
-                <time class="level-item has-text-grey" datetime="2019-05-09T09:03:31.632Z">2019-05-09</time>
+                <time class="level-item has-text-grey" datetime="2019-05-10T02:30:50.353Z">2019-05-10</time>
                 
                 
                 <span class="level-item has-text-grey">
                     
                     
-                    a minute read (About 121 words)
+                    3 minutes read (About 433 words)
                 </span>
                 
                 
@@ -156,19 +156,52 @@
         
         <h1 class="title is-size-3 is-size-4-mobile has-text-weight-normal">
             
-                <a class="has-link-black-ter" href="/2019/05/09/hello-world/">Hello World</a>
+                <a class="has-link-black-ter" href="/2019/05/10/前端框架规范/">前端框架规范</a>
             
         </h1>
         <div class="content">
-            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="hljs-string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+            <figure class="highlight plain hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br></pre></td><td class="code"><pre><span class="line">*&#123;word-wrap:break-word&#125;</span><br><span class="line">html,body,h1,h2,h3,h4,h5,h6,hr,p,iframe,dl,dt,dd,ul,ol,li,pre,form,button,input,textarea,th,td,fieldset&#123;margin:0;padding:0&#125;</span><br><span class="line">ul,ol,dl&#123;list-style-type:none&#125;</span><br><span class="line">html,body&#123;*position:static&#125;</span><br><span class="line">html&#123;font-family: sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%&#125;</span><br><span class="line">address,caption,cite,code,dfn,em,th,var&#123;font-style:normal;font-weight:400&#125;</span><br><span class="line">input,button,textarea,select,optgroup,option&#123;font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit&#125;</span><br><span class="line">input,button&#123;overflow: visible;vertical-align:middle;outline:none&#125;</span><br><span class="line">body,th,td,button,input,select,textarea&#123;font-family:&quot;Microsoft Yahei&quot;,&quot;Hiragino Sans GB&quot;,&quot;Helvetica Neue&quot;,Helvetica,tahoma,arial,Verdana,sans-serif,&quot;WenQuanYi Micro Hei&quot;,&quot;\5B8B\4F53&quot;;font-size:12px;color: #333;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing:grayscale&#125;</span><br><span class="line">body&#123;line-height:1.6&#125;</span><br><span class="line">h1,h2,h3,h4,h5,h6&#123;font-size:100%&#125;</span><br><span class="line">a,area&#123;outline:none;blr:expression(this.onFocus=this.blur())&#125;</span><br><span class="line">a&#123;text-decoration:none;cursor: pointer&#125;</span><br><span class="line">a:hover&#123;text-decoration:underline;outline:none&#125;</span><br><span class="line">a.ie6:hover&#123;zoom:1&#125;</span><br><span class="line">a:focus&#123;outline:none&#125;</span><br><span class="line">a:hover,a:active&#123;outline:none&#125;:focus&#123;outline:none&#125;</span><br><span class="line">sub,sup&#123;vertical-align:baseline&#125;</span><br><span class="line">button,input[type=&quot;button&quot;], input[type=&quot;submit&quot;] &#123;line-height:normal !important&#125;</span><br><span class="line">/*img*/</span><br><span class="line">img&#123;border:0;vertical-align:middle&#125;</span><br><span class="line">a img,img&#123;-ms-interpolation-mode:bicubic&#125;</span><br><span class="line">.img-responsive&#123;max-width: 100%;height: auto&#125;</span><br><span class="line"> </span><br><span class="line">/*IE下a:hover 背景闪烁*/</span><br><span class="line">*html&#123;overflow:-moz-scrollbars-vertical;zoom:expression(function(ele)&#123;ele.style.zoom = &quot;1&quot;;document.execCommand(&quot;BackgroundImageCache&quot;,false,true)&#125;(this))&#125;</span><br><span class="line"> </span><br><span class="line">/*HTML5 reset*/</span><br><span class="line">header,footer,section,aside,details,menu,article,section,nav,address,hgroup,figure,figcaption,legend&#123;display:block;margin:0;padding:0&#125;time&#123;display:inline&#125;</span><br><span class="line">audio,canvas,video&#123;display:inline-block;*display:inline;*zoom:1&#125;</span><br><span class="line">audio:not([controls])&#123;display:none&#125;</span><br><span class="line">legend&#123;width:100%;margin-bottom:20px;font-size:21px;line-height:40px;border:0;border-bottom:1px solid #e5e5e5&#125;</span><br><span class="line">legend small&#123;font-size:15px;color:#999&#125;</span><br><span class="line">svg:not(:root) &#123;overflow: hidden&#125;</span><br><span class="line">fieldset &#123;border-width:0;padding: 0.35em 0.625em 0.75em;margin: 0 2px;border: 1px solid #c0c0c0&#125;</span><br><span class="line">input[type=&quot;number&quot;]::-webkit-inner-spin-button,input[type=&quot;number&quot;]::-webkit-outer-spin-button &#123;height: auto&#125;</span><br><span class="line">input[type=&quot;search&quot;] &#123;-webkit-appearance: textfield; /* 1 */-moz-box-sizing: content-box;-webkit-box-sizing: content-box; /* 2 */box-sizing: content-box&#125;</span><br><span class="line">input[type=&quot;search&quot;]::-webkit-search-cancel-button,input[type=&quot;search&quot;]::-webkit-search-decoration &#123;-webkit-appearance: none&#125;</span><br><span class="line">/*</span><br><span class="line">Name:			style_clearfix</span><br><span class="line">Example:		class=&quot;clearfix|cl&quot;</span><br><span class="line">Explain:		Clearfix（简写cl）避免因子元素浮动而导致的父元素高度缺失能问题</span><br><span class="line">*/</span><br><span class="line">.cl:after,.clearfix:after&#123;content:&quot;.&quot;;display:block;height:0;clear:both;visibility:hidden&#125;.cl,.clearfix&#123;zoom:1&#125;</span><br></pre></td></tr></table></figure>
+
+        </div>
+        
+        
+        
+    </div>
+</div>
+
+
+
+
+
+
+
+
+    <div class="card">
+    
+    <div class="card-content article ">
+        
+        <div class="level article-meta is-size-7 is-uppercase is-mobile is-overflow-x-auto">
+            <div class="level-left">
+                <time class="level-item has-text-grey" datetime="2019-05-09T09:03:31.632Z">2019-05-09</time>
+                
+                
+                <span class="level-item has-text-grey">
+                    
+                    
+                    a few seconds read (About 94 words)
+                </span>
+                
+                
+            </div>
+        </div>
+        
+        <h1 class="title is-size-3 is-size-4-mobile has-text-weight-normal">
+            
+                <a class="has-link-black-ter" href="/2019/05/09/文件夹命名规范/">文件夹命名规范</a>
+            
+        </h1>
+        <div class="content">
+            <figure class="highlight plain hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line">admin     后台管理</span><br><span class="line">app       应用</span><br><span class="line">article   资讯</span><br><span class="line">common    公共</span><br><span class="line">config    配置</span><br><span class="line">data      数据</span><br><span class="line">digg      顶</span><br><span class="line">en-us     英文</span><br><span class="line">extend    延伸</span><br><span class="line">install   安装</span><br><span class="line">Lang      语言包</span><br><span class="line">Lib       库</span><br><span class="line">mall      商城</span><br><span class="line">picture   组图</span><br><span class="line">product   商品</span><br><span class="line">search    搜索</span><br><span class="line">section   区块</span><br><span class="line">shop      商店</span><br><span class="line">static    静态</span><br><span class="line">system    系统</span><br><span class="line">templates 模版</span><br><span class="line">tuan      团购</span><br><span class="line">ucenter   用户中心</span><br><span class="line">upload    上传</span><br><span class="line">video     视频</span><br><span class="line">vote      投票</span><br><span class="line">zh_tw     繁体中文</span><br><span class="line">zh-cn     简体中文</span><br></pre></td></tr></table></figure>
 
         </div>
         
@@ -224,10 +257,10 @@
             <div class="level-item has-text-centered is-marginless">
                 <div>
                     <p class="heading">
-                        Post
+                        Posts
                     </p>
                     <p class="title has-text-weight-normal">
-                        1
+                        2
                     </p>
                 </div>
             </div>
@@ -364,16 +397,35 @@
         
         <article class="media">
             
-            <a href="/2019/05/09/hello-world/" class="media-left">
+            <a href="/2019/05/10/前端框架规范/" class="media-left">
                 <p class="image is-64x64">
-                    <img class="thumbnail" src="/images/thumbnail.svg" alt="Hello World">
+                    <img class="thumbnail" src="/images/thumbnail.svg" alt="前端框架规范">
+                </p>
+            </a>
+            
+            <div class="media-content">
+                <div class="content">
+                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2019-05-10T02:30:50.353Z">2019-05-10</time></div>
+                    <a href="/2019/05/10/前端框架规范/" class="has-link-black-ter is-size-6">前端框架规范</a>
+                    <p class="is-size-7 is-uppercase">
+                        
+                    </p>
+                </div>
+            </div>
+        </article>
+        
+        <article class="media">
+            
+            <a href="/2019/05/09/文件夹命名规范/" class="media-left">
+                <p class="image is-64x64">
+                    <img class="thumbnail" src="/images/thumbnail.svg" alt="文件夹命名规范">
                 </p>
             </a>
             
             <div class="media-content">
                 <div class="content">
                     <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2019-05-09T09:03:31.632Z">2019-05-09</time></div>
-                    <a href="/2019/05/09/hello-world/" class="has-link-black-ter is-size-6">Hello World</a>
+                    <a href="/2019/05/09/文件夹命名规范/" class="has-link-black-ter is-size-6">文件夹命名规范</a>
                     <p class="is-size-7 is-uppercase">
                         
                     </p>
@@ -399,7 +451,7 @@
                     <span class="level-item">May 2019</span>
                 </span>
                 <span class="level-end">
-                    <span class="level-item tag">1</span>
+                    <span class="level-item tag">2</span>
                 </span>
             </a>
         </li>
@@ -442,16 +494,35 @@
         
         <article class="media">
             
-            <a href="/2019/05/09/hello-world/" class="media-left">
+            <a href="/2019/05/10/前端框架规范/" class="media-left">
                 <p class="image is-64x64">
-                    <img class="thumbnail" src="/images/thumbnail.svg" alt="Hello World">
+                    <img class="thumbnail" src="/images/thumbnail.svg" alt="前端框架规范">
+                </p>
+            </a>
+            
+            <div class="media-content">
+                <div class="content">
+                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2019-05-10T02:30:50.353Z">2019-05-10</time></div>
+                    <a href="/2019/05/10/前端框架规范/" class="has-link-black-ter is-size-6">前端框架规范</a>
+                    <p class="is-size-7 is-uppercase">
+                        
+                    </p>
+                </div>
+            </div>
+        </article>
+        
+        <article class="media">
+            
+            <a href="/2019/05/09/文件夹命名规范/" class="media-left">
+                <p class="image is-64x64">
+                    <img class="thumbnail" src="/images/thumbnail.svg" alt="文件夹命名规范">
                 </p>
             </a>
             
             <div class="media-content">
                 <div class="content">
                     <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2019-05-09T09:03:31.632Z">2019-05-09</time></div>
-                    <a href="/2019/05/09/hello-world/" class="has-link-black-ter is-size-6">Hello World</a>
+                    <a href="/2019/05/09/文件夹命名规范/" class="has-link-black-ter is-size-6">文件夹命名规范</a>
                     <p class="is-size-7 is-uppercase">
                         
                     </p>
@@ -477,7 +548,7 @@
                     <span class="level-item">May 2019</span>
                 </span>
                 <span class="level-end">
-                    <span class="level-item tag">1</span>
+                    <span class="level-item tag">2</span>
                 </span>
             </a>
         </li>
