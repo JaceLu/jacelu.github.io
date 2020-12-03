@@ -3,6 +3,7 @@ layout: post
 title:  "What is Jekyll"
 author: jane
 categories: [ Jekyll, tutorial ]
+repositories: [ development ]
 image: assets/images/11.jpg
 ---
 

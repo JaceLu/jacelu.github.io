@@ -1,0 +1,26 @@
+---
+title: "repositories"
+layout: default
+permalink: "/repositories-list.html"
+---
+
+<div class="container">
+    <h4 class="font-weight-bold spanborder"><span>{{page.title}}</span></h4>
+    <div class="row gap-y listrecent listrecent listauthor">
+        {% for repositories in site.repositories %}
+        <div class="col-lg-6 mb-4">
+            <div class="p-4 border rounded">
+                <div class="row">
+                    <div class="col-md-12">
+                        <a href="{{site.baseurl}}/author-{{ repositories[1].name | slugify }}">
+                            <h4 class="text-dark mb-0"> {{ repositories[1].name }} </h4>
+                            <small class="d-inline-block mt-1 mb-3 font-weight-normal">(View Posts)</small>
+                            <div class="excerpt">{{ repositories[1].bio }}</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
